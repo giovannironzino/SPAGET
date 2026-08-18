@@ -1,0 +1,6 @@
+{
+  "name": "SPAGET",
+  "description": "Sistema pessoal de diagnóstico financeiro e plano de ação estruturado em 21 dias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

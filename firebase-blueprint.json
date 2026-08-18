@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "cycles": {
+      "title": "SPAGET Cycles",
+      "description": "Schema for the SPAGET user planning cycle, storing diagnostics, incomes, and planned budgets.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The unique identifier of the user who owns this cycle."
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of when this cycle was created."
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of when this cycle was last updated."
+        },
+        "challengeStartDate": {
+          "type": "string",
+          "description": "The custom start date of the 21 days cycle (YYYY-MM-DD)."
+        },
+        "challengeEndDate": {
+          "type": "string",
+          "description": "The automatic end date of the 21 days cycle (YYYY-MM-DD)."
+        },
+        "currentStage": {
+          "type": "string",
+          "enum": ["diagnostico", "receita", "orcamento", "plano", "concluido"],
+          "description": "The current step/stage of the user cycle."
+        },
+        "completedStages": {
+          "type": "array",
+          "description": "List of completed stage names."
+        },
+        "stage1Confirmed": {
+          "type": "boolean",
+          "description": "Whether Stage 1 is verified and locked."
+        },
+        "stage2Confirmed": {
+          "type": "boolean",
+          "description": "Whether Stage 2 is verified and locked."
+        },
+        "stage3Confirmed": {
+          "type": "boolean",
+          "description": "Whether Stage 3 is verified and locked."
+        },
+        "stage4Confirmed": {
+          "type": "boolean",
+          "description": "Whether Stage 4 is verified and locked."
+        }
+      },
+      "required": ["userId", "createdAt", "updatedAt", "currentStage"]
+    }
+  },
+  "firestore": {
+    "/cycles/{cycleId}": {
+      "schema": "cycles",
+      "description": "Exhaustive user plan cycle containing state, budgets, fixed and variable expenses, and debts."
+    }
+  }
+}
