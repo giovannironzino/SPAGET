@@ -1,0 +1,17 @@
+{
+  "cf-prot-frango-peito": {
+    "iri": "http://purl.obolibrary.org/obo/FOODON_03301053",
+    "preferredLabel": "chicken meat",
+    "hierarchicalAncestors": ["poultry meat", "meat product", "food"]
+  },
+  "cf-prot-ovos": {
+    "iri": "http://purl.obolibrary.org/obo/FOODON_03301287",
+    "preferredLabel": "chicken egg",
+    "hierarchicalAncestors": ["egg product", "food"]
+  },
+  "cf-grain-arroz-branco": {
+    "iri": "http://purl.obolibrary.org/obo/FOODON_03301697",
+    "preferredLabel": "white rice grain",
+    "hierarchicalAncestors": ["cereal grain", "plant food", "food"]
+  }
+}

@@ -696,15 +696,14 @@ Responda rigorosamente com um objeto JSON no formato:
   }
 });
 
-// Serve built frontend assets in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'dist')));
-  
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
-  });
-}
+// Serve built frontend assets
+const distPath = path.join(__dirname, 'dist');
+app.use(express.static(distPath));
+
+app.use((req, res) => {
+  res.sendFile(path.join(distPath, 'index.html'));
+});
 
 app.listen(port, () => {
-  console.log(`Server running on port ${port} in ${process.env.NODE_ENV || 'development'} mode`);
+  console.log(`Server running on port ${port}`);
 });

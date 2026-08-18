@@ -1,0 +1,42 @@
+{
+  "cf-prot-frango-peito": {
+    "breakfast": 0.05,
+    "morningSnack": 0.10,
+    "lunch": 0.95,
+    "afternoonSnack": 0.15,
+    "dinner": 0.90,
+    "supper": 0.20
+  },
+  "cf-prot-ovos": {
+    "breakfast": 0.90,
+    "morningSnack": 0.30,
+    "lunch": 0.70,
+    "afternoonSnack": 0.40,
+    "dinner": 0.75,
+    "supper": 0.50
+  },
+  "cf-carb-pao-integral": {
+    "breakfast": 0.95,
+    "morningSnack": 0.40,
+    "lunch": 0.10,
+    "afternoonSnack": 0.85,
+    "dinner": 0.20,
+    "supper": 0.30
+  },
+  "cf-grain-arroz-branco": {
+    "breakfast": 0.02,
+    "morningSnack": 0.05,
+    "lunch": 0.98,
+    "afternoonSnack": 0.05,
+    "dinner": 0.92,
+    "supper": 0.10
+  },
+  "cf-carb-aveia": {
+    "breakfast": 0.92,
+    "morningSnack": 0.60,
+    "lunch": 0.05,
+    "afternoonSnack": 0.80,
+    "dinner": 0.10,
+    "supper": 0.40
+  }
+}

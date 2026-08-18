@@ -1,0 +1,52 @@
+{
+  "cf-prot-frango-peito": {
+    "energyKcal": 165,
+    "proteinG": 31.0,
+    "carbohydrateG": 0.0,
+    "fatG": 3.6,
+    "fiberG": 0.0,
+    "source": "USDA",
+    "sourceId": "171077",
+    "fetchedAt": "2026-08-18T13:00:00Z"
+  },
+  "cf-prot-patinho": {
+    "energyKcal": 219,
+    "proteinG": 35.9,
+    "carbohydrateG": 0.0,
+    "fatG": 7.3,
+    "fiberG": 0.0,
+    "source": "USDA",
+    "sourceId": "174032",
+    "fetchedAt": "2026-08-18T13:00:00Z"
+  },
+  "cf-prot-ovos": {
+    "energyKcal": 155,
+    "proteinG": 13.0,
+    "carbohydrateG": 1.1,
+    "fatG": 11.0,
+    "fiberG": 0.0,
+    "source": "USDA",
+    "sourceId": "171287",
+    "fetchedAt": "2026-08-18T13:00:00Z"
+  },
+  "cf-grain-arroz-branco": {
+    "energyKcal": 130,
+    "proteinG": 2.5,
+    "carbohydrateG": 28.0,
+    "fatG": 0.2,
+    "fiberG": 1.6,
+    "source": "USDA",
+    "sourceId": "169756",
+    "fetchedAt": "2026-08-18T13:00:00Z"
+  },
+  "cf-carb-pao-integral": {
+    "energyKcal": 247,
+    "proteinG": 9.4,
+    "carbohydrateG": 45.0,
+    "fatG": 3.2,
+    "fiberG": 6.8,
+    "source": "USDA",
+    "sourceId": "172686",
+    "fetchedAt": "2026-08-18T13:00:00Z"
+  }
+}
