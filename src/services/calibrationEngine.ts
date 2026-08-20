@@ -1,4 +1,5 @@
 import { SpagetData, CategoryKey, CategorizedExpenseItem } from '../types';
+import { systemConfig } from './systemConfigService';
 
 export interface CalibrationAlert {
   id: string;
@@ -24,13 +25,13 @@ export interface BudgetScenario {
 }
 
 /**
- * 100% Offline & Zero API Cost Calibration Engine
- * Analyzes categorized expenses against Brazilian living cost heuristics
+ * Dynamic Calibration Engine connected to Management Center
  */
 export function analyzeCalibration(data: SpagetData): CalibrationAlert[] {
   const alerts: CalibrationAlert[] = [];
   const currentRevenue = Number(data.currentRevenue) || 0;
   const categories = data.categorizedExpenses || {};
+  const rules = systemConfig.getData().calibrationRules;
 
   // Flatten active items
   const activeItems: CategorizedExpenseItem[] = [];
@@ -46,27 +47,30 @@ export function analyzeCalibration(data: SpagetData): CalibrationAlert[] {
 
   const totalActiveExpenseVal = activeItems.reduce((sum, i) => sum + (Number(i.valorDeclarado) || 0), 0);
 
-  // 1. Food (Alimentação) Heuristics
+  // 1. Food Heuristics (Dynamic Floor)
   const foodItems = categories['alimentacao'] || [];
   const activeFoodItems = foodItems.filter((i) => i.temDespesa);
   const totalFoodVal = activeFoodItems.reduce((sum, i) => sum + (Number(i.valorDeclarado) || 0), 0);
+  const foodFloor = rules.foodUnderestimationFloor || 300;
 
-  if (activeFoodItems.length > 0 && totalFoodVal < 300) {
+  if (activeFoodItems.length > 0 && totalFoodVal < foodFloor) {
     alerts.push({
       id: 'alert-food-under',
       categoryKey: 'alimentacao',
       type: 'under',
       severity: 'warning',
       title: '⚠️ Alerta de Subestimação (Alimentação)',
-      message: `R$ ${totalFoodVal.toFixed(2)}/mês com alimentação costuma ser insuficiente para cobrir feira, mercado e proteínas básicas. Verifique se você não omitiu compras cotidianas.`,
+      message: `R$ ${totalFoodVal.toFixed(2)}/mês com alimentação costuma ser insuficiente para cobrir feira, mercado e proteínas básicas (referência mínima: R$ ${foodFloor.toFixed(2)}). Verifique se você não omitiu compras cotidianas.`,
     });
   }
 
+  // Delivery Threshold
   const deliveryItem = foodItems.find((i) => i.id === 'alim-delivery');
+  const deliveryThreshold = rules.deliveryMaxPercentageOfIncome || 12;
   if (deliveryItem && deliveryItem.temDespesa && currentRevenue > 0) {
     const deliveryVal = Number(deliveryItem.valorDeclarado) || 0;
     const deliveryPercentage = (deliveryVal / currentRevenue) * 100;
-    if (deliveryPercentage >= 12) {
+    if (deliveryPercentage >= deliveryThreshold) {
       alerts.push({
         id: 'alert-delivery-over',
         categoryKey: 'alimentacao',
@@ -74,12 +78,12 @@ export function analyzeCalibration(data: SpagetData): CalibrationAlert[] {
         type: 'over',
         severity: 'info',
         title: '💡 Alerta de Superestimação (Delivery)',
-        message: `Seus gastos com delivery (R$ ${deliveryVal.toFixed(2)}) representam ${deliveryPercentage.toFixed(1)}% da sua renda. Este é o principal ponto para alavancar sua folga financeira imediata.`,
+        message: `Seus gastos com delivery (R$ ${deliveryVal.toFixed(2)}) representam ${deliveryPercentage.toFixed(1)}% da sua renda (limite sugerido: ${deliveryThreshold}%). Este é o principal ponto para alavancar sua folga financeira imediata.`,
       });
     }
   }
 
-  // 2. Transport (Transporte) Heuristics
+  // 2. Transport Heuristics
   const transportItems = categories['transporte'] || [];
   const vehicleFinancing = transportItems.find((i) => i.id === 'transp-financiamento' && i.temDespesa);
   const vehicleMaintenance = transportItems.find((i) => i.id === 'transp-manutencao' && i.temDespesa);
@@ -94,9 +98,10 @@ export function analyzeCalibration(data: SpagetData): CalibrationAlert[] {
     });
   }
 
-  // 3. Health & Pharmacy (Saúde) Heuristics
+  // 3. Health & Pharmacy Heuristics
   const healthItems = categories['saude'] || [];
   const activeHealthItems = healthItems.filter((i) => i.temDespesa);
+  const healthReserve = rules.healthReserveSuggested || 50;
   if (activeHealthItems.length === 0) {
     alerts.push({
       id: 'alert-health-missing',
@@ -104,26 +109,27 @@ export function analyzeCalibration(data: SpagetData): CalibrationAlert[] {
       type: 'under',
       severity: 'info',
       title: '💡 Lembrete de Proteção (Farmácia e Saúde)',
-      message: 'Você não marcou nenhuma despesa em Saúde. É recomendável manter uma reserva mínima de R$ 50/mês para farmácia e remédios imprevistos.',
+      message: `Você não marcou nenhuma despesa em Saúde. É recomendável manter uma reserva mínima de R$ ${healthReserve.toFixed(2)}/mês para farmácia e remédios imprevistos.`,
     });
   }
 
-  // 4. Subscriptions & Screens (Assinaturas) Heuristics
+  // 4. Subscriptions Heuristics
   const subItems = categories['assinaturas'] || [];
   const activeStreamings = subItems.filter((i) => i.temDespesa && i.id.startsWith('sub-') && !['sub-internet', 'sub-celular'].includes(i.id));
-  if (activeStreamings.length >= 4) {
+  const maxStreaming = rules.streamingMaxCount || 4;
+  if (activeStreamings.length >= maxStreaming) {
     const totalStreamingVal = activeStreamings.reduce((sum, i) => sum + (Number(i.valorDeclarado) || 0), 0);
     alerts.push({
-      id: 'alert-[#E1DBD2]',
+      id: 'alert-streaming-over',
       categoryKey: 'assinaturas',
       type: 'over',
       severity: 'info',
       title: '💡 Dica de Otimização (Streamings Acumulados)',
-      message: `Você tem ${activeStreamings.length} serviços de streaming e IA ativos somando R$ ${totalStreamingVal.toFixed(2)}/mês. Alternar entre eles mês a mês economizaria mais de R$ ${(totalStreamingVal * 6).toFixed(2)} por ano.`,
+      message: `Você tem ${activeStreamings.length} serviços de streaming e IA ativos somando R$ ${totalStreamingVal.toFixed(2)}/mês (limite sugerido: até ${maxStreaming}). Alternar entre eles mês a mês economizaria mais de R$ ${(totalStreamingVal * 6).toFixed(2)} por ano.`,
     });
   }
 
-  // 5. Macro Income vs Expenses Ratio
+  // 5. Macro Deficit
   if (currentRevenue > 0 && totalActiveExpenseVal > currentRevenue) {
     const deficit = totalActiveExpenseVal - currentRevenue;
     alerts.push({
@@ -140,8 +146,7 @@ export function analyzeCalibration(data: SpagetData): CalibrationAlert[] {
 }
 
 /**
- * 100% Offline 0-Cost Scenario Generator
- * Computes 3 Scenarios: Mínimo (Enxuto), Ideal (Recomendado), Livre (Atual)
+ * 3 Scenarios Generator connected to Management Rules
  */
 export function calculateScenarios(data: SpagetData): Record<'minimo' | 'ideal' | 'livre', BudgetScenario> {
   const currentRevenue = Number(data.currentRevenue) || 0;
@@ -174,9 +179,9 @@ export function calculateScenarios(data: SpagetData): Record<'minimo' | 'ideal' 
     plannedLivre[item.id] = val;
     totalLivre += val;
 
-    // Ideal Scenario: Trims non-essential discretionary expenditures by 25-50%
+    // Ideal Scenario
     let idealVal = val;
-    if (['alim-delivery', 'lazer-compras', 'lazer-hobbies', 'lazer-[#E1DBD2]'].includes(item.id)) {
+    if (['alim-delivery', 'lazer-compras', 'lazer-hobbies', 'lazer-presentes'].includes(item.id)) {
       idealVal = Math.round(val * 0.5);
     } else if (['alim-restaurantes', 'transp-apps', 'lazer-eventos'].includes(item.id)) {
       idealVal = Math.round(val * 0.7);
@@ -184,7 +189,7 @@ export function calculateScenarios(data: SpagetData): Record<'minimo' | 'ideal' 
     plannedIdeal[item.id] = idealVal;
     totalIdeal += idealVal;
 
-    // Mínimo Scenario: Trims discretionary expenditures to 0 or 20% essential baseline
+    // Mínimo Scenario
     let minimoVal = val;
     if (item.categoriaKey === 'lazer' || ['alim-delivery', 'sub-netflix', 'sub-prime'].includes(item.id)) {
       minimoVal = 0;

@@ -668,7 +668,6 @@ export const DiagnosticoStage: React.FC = () => {
       <NutritionalFoodModal
         isOpen={isNutritionalModalOpen}
         onClose={() => setIsNutritionalModalOpen(false)}
-        onExportToDiagnostico={handleExportNutritionalBreakdown}
       />
 
       {/* Confirmation & Next Stage Button */}

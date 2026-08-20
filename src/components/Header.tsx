@@ -1,6 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { useSpaget } from '../context/SpagetContext';
-import { Lock, Check, Cloud, CloudOff, LogOut, User, Mail, Shield, Loader, Key } from 'lucide-react';
+import { Lock, Check, Cloud, CloudOff, LogOut, User, Mail, Shield, Loader, Key, Sliders, Heart } from 'lucide-react';
+import { ManagementCenterModal } from './ManagementCenterModal';
+import { UserPreferencesModal } from './UserPreferencesModal';
+import { userPreferencesService } from '../services/userPreferencesService';
 
 export const Header: React.FC = () => {
   const { 
@@ -20,6 +23,17 @@ export const Header: React.FC = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
+  const [showManagementModal, setShowManagementModal] = useState(false);
+  const [showPreferencesModal, setShowPreferencesModal] = useState(false);
+  const [userRole, setUserRole] = useState<'user' | 'admin'>('user');
+
+  useEffect(() => {
+    if (user) {
+      userPreferencesService.getUserRole(user.uid).then((r) => setUserRole(r));
+    } else {
+      setUserRole('user');
+    }
+  }, [user]);
   
   // Local state for Email login/magic register
   const [email, setEmail] = useState('');
@@ -172,6 +186,18 @@ export const Header: React.FC = () => {
                         <span>Atualizado na nuvem:</span>
                         <span className="font-bold text-[#22201D]">Agora mesmo</span>
                       </div>
+                      <div className="flex items-center justify-between text-[10px] text-[#5C5852] pt-1.5 border-t border-gray-100">
+                        <span>Perfil de acesso:</span>
+                        <span
+                          className={`font-bold px-2 py-0.5 rounded text-[9px] ${
+                            userRole === 'admin'
+                              ? 'bg-amber-100 text-amber-900 border border-amber-300'
+                              : 'bg-emerald-100 text-emerald-900 border border-emerald-300'
+                          }`}
+                        >
+                          {userRole === 'admin' ? '👑 Administrador' : '👤 Usuário'}
+                        </span>
+                      </div>
                     </div>
                     <button
                       onClick={() => {
@@ -193,6 +219,26 @@ export const Header: React.FC = () => {
               >
                 <CloudOff className="w-3.5 h-3.5" />
                 <span>Salvar na Nuvem</span>
+              </button>
+            )}
+
+            {userRole === 'admin' ? (
+              <button
+                onClick={() => setShowManagementModal(true)}
+                className="flex items-center gap-1.5 bg-white hover:bg-amber-50/60 border border-[#E1DBD2] text-[#22201D] px-3 py-1.5 rounded-lg text-xs font-bold transition-all focus-ring shadow-sm cursor-pointer"
+                title="Abrir Central de Controle e Gestão Master (Admin)"
+              >
+                <Sliders className="w-3.5 h-3.5 text-[#C8442F]" />
+                <span className="hidden sm:inline">Central de Gestão (Admin)</span>
+              </button>
+            ) : (
+              <button
+                onClick={() => setShowPreferencesModal(true)}
+                className="flex items-center gap-1.5 bg-[#E6F0E6] hover:bg-[#d0ebd0] border border-[#4F7655]/30 text-[#4F7655] px-3 py-1.5 rounded-lg text-xs font-bold transition-all focus-ring shadow-sm cursor-pointer"
+                title="Minhas Preferências Alimentares Pessoais"
+              >
+                <Heart className="w-3.5 h-3.5 text-[#4F7655]" />
+                <span className="hidden sm:inline">Minhas Preferências</span>
               </button>
             )}
 
@@ -322,6 +368,18 @@ export const Header: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* CENTRAL DE CONTROLE E GESTÃO NO-CODE (ADMIN) */}
+      <ManagementCenterModal
+        isOpen={showManagementModal}
+        onClose={() => setShowManagementModal(false)}
+      />
+
+      {/* MODAL DE PREFERÊNCIAS INDIVIDUAIS (USUÁRIO) */}
+      <UserPreferencesModal
+        isOpen={showPreferencesModal}
+        onClose={() => setShowPreferencesModal(false)}
+      />
     </header>
   );
 };

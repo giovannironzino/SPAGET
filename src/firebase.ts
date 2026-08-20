@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-import { initializeFirestore } from 'firebase/firestore';
+import { initializeFirestore, memoryLocalCache } from 'firebase/firestore';
 
 // Public Firebase config retrieved from configuration
 const firebaseConfig = {
@@ -18,8 +18,10 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase Auth
 export const auth = getAuth(app);
 
-// Initialize Firestore with custom Database ID
-export const db = initializeFirestore(app, {}, "ai-studio-spaget-8ff321d3-1f1c-4317-bc0f-a0344902afe2");
+// Initialize Firestore with custom Database ID and in-memory cache to prevent iframe IndexedDB closing conflicts
+export const db = initializeFirestore(app, {
+  localCache: memoryLocalCache()
+}, "ai-studio-spaget-8ff321d3-1f1c-4317-bc0f-a0344902afe2");
 
 // Google Auth Provider setup
 export const googleProvider = new GoogleAuthProvider();

@@ -36,5 +36,26 @@ service cloud.firestore {
 
       allow delete: if isSignedIn() && resource.data.userId == request.auth.uid;
     }
+
+    // Preferências alimentares por usuário
+    match /user_food_preferences/{uid} {
+      allow read, write: if isSignedIn() && request.auth.uid == uid;
+    }
+
+    // Perfis e controle de permissões (Usuário não pode se auto-promover a Admin)
+    match /user_profiles/{uid} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.auth.uid == uid && request.resource.data.role == 'user';
+      allow update: if isSignedIn() && request.auth.uid == uid && request.resource.data.role == resource.data.role;
+      allow delete: if false;
+    }
+
+    // Configuração mestre do sistema (Apenas administradores com role=='admin' podem alterar)
+    match /system_config/{configId} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn() 
+        && exists(/databases/$(database)/documents/user_profiles/$(request.auth.uid))
+        && get(/databases/$(database)/documents/user_profiles/$(request.auth.uid)).data.role == 'admin';
+    }
   }
 }

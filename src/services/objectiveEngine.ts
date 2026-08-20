@@ -20,7 +20,7 @@ export function calculateNutritionalStrategy(
   if (isOverweightOrObese) {
     // Adjusted Weight strategy for BMI >= 25
     bodyReferenceWeightKg = idealWeightKg + 0.25 * (personData.weightKg - idealWeightKg);
-    bodyReferenceMethod = `Peso Ajustado Clinicamente (${bodyReferenceWeightKg.toFixed(1)}kg para IMC ${bmi.toFixed(1)})`;
+    bodyReferenceMethod = `Peso Alvo: ${bodyReferenceWeightKg.toFixed(1)}kg (Baseado no Peso Clínico Ajustado para o seu IMC atual de ${bmi.toFixed(1)})`;
   }
 
   // Energy Requirement Methodology (Mifflin-St Jeor + TEF 10%)

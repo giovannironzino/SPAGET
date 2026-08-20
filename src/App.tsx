@@ -1,5 +1,6 @@
 import React from 'react';
 import { SpagetProvider, useSpaget } from './context/SpagetContext';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { Header } from './components/Header';
 import { ProgressPanel } from './components/ProgressPanel';
 import { DiagnosticoStage } from './components/DiagnosticoStage';
@@ -81,8 +82,10 @@ const LockedStageView: React.FC<LockedStageViewProps> = ({ title, prerequisite }
 
 export default function App() {
   return (
-    <SpagetProvider>
-      <MainLayout />
-    </SpagetProvider>
+    <ErrorBoundary>
+      <SpagetProvider>
+        <MainLayout />
+      </SpagetProvider>
+    </ErrorBoundary>
   );
 }

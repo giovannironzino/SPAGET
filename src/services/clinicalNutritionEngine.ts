@@ -48,9 +48,19 @@ export interface MealQuotaResult {
   mpsWarning?: string;
 }
 
+import { FoodFunctionalRole, GuideFoodGroup } from '../types/foodRoles';
+
+export interface HouseholdMeasure {
+  label: string;
+  grams: number;
+  rawLabel?: string;
+}
+
 export interface ClinicalFoodItem {
   id: string;
   name: string;
+  rawName?: string;
+  prepDesc?: string;
   category: 'protein' | 'grains' | 'carbs' | 'produce' | 'pantry';
   defaultLocation: 'supermarket' | 'farmersMarket' | 'bakery';
   // Per 100g cooked/ready values
@@ -69,6 +79,10 @@ export interface ClinicalFoodItem {
   umcUnitName: string; // 'Pacote 1kg', 'Cartela 30un', etc.
   umcSizeKg: number;   // Peso bruto por embalagem
   pricePerUmc: number;  // Preço da embalagem inteira
+  householdMeasures?: HouseholdMeasure[];
+  novaGroup?: 'in_natura' | 'culinary_ingredient' | 'processed' | 'ultraprocessed'; // Classificação NOVA (Ministério da Saúde)
+  guideGroup?: GuideFoodGroup; // 9 Grupos do Guia Alimentar para a População Brasileira (MS)
+  functionalRoles?: FoodFunctionalRole[]; // Papéis Funcionais na Refeição
 }
 
 /**

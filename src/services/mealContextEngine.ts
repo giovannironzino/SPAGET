@@ -26,14 +26,15 @@ export function evaluateMealContext(
 
   // Culinary compatibility check (e.g. no heavy meats in breakfast unless preferred)
   let culinaryCompatible = true;
-  if ((mealType === 'BREAKFAST' || mealType === 'AFTERNOON_SNACK') && (food.id === 'cf-prot-patinho' || food.id === 'cf-prot-tilapia')) {
+  const isHeavyMeat = food.functionalRoles?.includes('proteico_animal') && !food.name.toLowerCase().includes('ovo') && !food.name.toLowerCase().includes('queijo');
+  if ((mealType === 'BREAKFAST' || mealType === 'AFTERNOON_SNACK') && isHeavyMeat) {
     if (!isUserPreferred) {
       culinaryCompatible = false;
-      reasons.push(`Proteínas grelhadas pesadas são menos comuns em ${mealType}.`);
+      reasons.push(`Carnes grelhadas ou pesadas são menos comuns em ${mealType}.`);
     }
   }
 
-  if (mealType === 'AFTERNOON_SNACK' && food.id === 'cf-grain-arroz-branco' && !isUserPreferred) {
+  if (mealType === 'AFTERNOON_SNACK' && food.functionalRoles?.includes('energetico_cereal') && food.name.toLowerCase().includes('arroz') && !isUserPreferred) {
     culinaryCompatible = false;
     reasons.push('Arroz isolado é menos comum como lanche vespertino.');
   }

@@ -1,0 +1,3312 @@
+[
+  {
+    "id": "ibge-6301201-99",
+    "name": "Fava (em Grao)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6302602-99",
+    "name": "Andu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6303501-99",
+    "name": "Quirera Nao Especificada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6304201-99",
+    "name": "Pipoca  Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6400508-99",
+    "name": "Quicare",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6401001-1",
+    "name": "Rabanete (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6401001-2",
+    "name": "Rabanete (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6401001-12",
+    "name": "Rabanete (ao vinagrete)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6401301-2",
+    "name": "Nabo (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6401301-7",
+    "name": "Nabo (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6401601-1",
+    "name": "Acafrao (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6500105-99",
+    "name": "Mucilon",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6500801-99",
+    "name": "Cremogema",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6501416-99",
+    "name": "Cruera",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502101-99",
+    "name": "Neston",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502102-99",
+    "name": "Flocos De Cereais",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502105-99",
+    "name": "Vitaflocos",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502403-1",
+    "name": "Mini Pizza Semipronta (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502403-2",
+    "name": "Mini Pizza Semipronta (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502403-4",
+    "name": "Mini Pizza Semipronta (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502403-5",
+    "name": "Mini Pizza Semipronta (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502403-99",
+    "name": "Mini Pizza Semipronta",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6502603-99",
+    "name": "Mini Pastel",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6504101-99",
+    "name": "Granola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6504601-99",
+    "name": "Musli",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6504701-99",
+    "name": "Mix De Cereais",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6504801-99",
+    "name": "Miojo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6505101-99",
+    "name": "Sustagem",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6505603-99",
+    "name": "Proteina Vegetal",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6505701-99",
+    "name": "Complemento Alimentar De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6506003-4",
+    "name": "Mini Pizza Semipronta Light (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6600101-99",
+    "name": "Coco Da Bahia (seco Ou Verde)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6600401-99",
+    "name": "Pinhao",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6600601-99",
+    "name": "Avela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6600912-99",
+    "name": "Butia",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601108-99",
+    "name": "Tucuma",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601208-99",
+    "name": "Coco Mucaja",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601706-99",
+    "name": "Acai",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601709-99",
+    "name": "Uacai",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601712-99",
+    "name": "Jussara",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601805-99",
+    "name": "Pupunha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601902-99",
+    "name": "Bacaba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6601904-99",
+    "name": "Bacabucu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6602201-99",
+    "name": "Pistache",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6602301-99",
+    "name": "Buriti",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6602401-99",
+    "name": "Coco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6602601-99",
+    "name": "Pataua",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6700201-7",
+    "name": "Bertalha (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6700301-1",
+    "name": "Chicoria (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6700301-2",
+    "name": "Chicoria (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6700301-7",
+    "name": "Chicoria (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6700301-12",
+    "name": "Chicoria (ao vinagrete)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6700304-99",
+    "name": "Escarola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701101-99",
+    "name": "Cebolinha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701401-1",
+    "name": "Taioba (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701401-2",
+    "name": "Taioba (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701401-7",
+    "name": "Taioba (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701501-1",
+    "name": "Acelga (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701501-2",
+    "name": "Acelga (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701501-7",
+    "name": "Acelga (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701501-99",
+    "name": "Acelga",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701601-1",
+    "name": "Almeirao (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701601-2",
+    "name": "Almeirao (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701601-7",
+    "name": "Almeirao (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701601-12",
+    "name": "Almeirao (ao vinagrete)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701602-1",
+    "name": "Radite (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701602-7",
+    "name": "Radite (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701602-12",
+    "name": "Radite (ao vinagrete)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701801-1",
+    "name": "Serralha (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701801-2",
+    "name": "Serralha (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701801-7",
+    "name": "Serralha (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701901-2",
+    "name": "Caruru (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701906-99",
+    "name": "Cuxa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701907-99",
+    "name": "Vinagreira",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6701913-99",
+    "name": "Cariru",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6702105-99",
+    "name": "Jambu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6702301-99",
+    "name": "Alcachofra",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6702501-99",
+    "name": "Bredo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6702604-7",
+    "name": "Salsao (aipo) (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6702801-99",
+    "name": "Erva Doce",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6703306-2",
+    "name": "Moranga (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6703306-7",
+    "name": "Moranga (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6703306-13",
+    "name": "Moranga (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6703306-99",
+    "name": "Moranga",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6703805-1",
+    "name": "Jerimum (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6703805-2",
+    "name": "Jerimum (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-1",
+    "name": "Jilo (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-2",
+    "name": "Jilo (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-4",
+    "name": "Jilo (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-5",
+    "name": "Jilo (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-7",
+    "name": "Jilo (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-11",
+    "name": "Jilo (com manteiga/oleo)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-13",
+    "name": "Jilo (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704201-99",
+    "name": "Jilo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704301-1",
+    "name": "Maxixe (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704301-2",
+    "name": "Maxixe (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704301-7",
+    "name": "Maxixe (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704301-13",
+    "name": "Maxixe (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704306-2",
+    "name": "Pepininho (maxixe) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704306-12",
+    "name": "Pepininho (maxixe) (ao vinagrete)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704401-1",
+    "name": "Palmito In Natura (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704401-2",
+    "name": "Palmito In Natura (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704401-7",
+    "name": "Palmito In Natura (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704401-13",
+    "name": "Palmito In Natura (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704409-2",
+    "name": "Guariroba (palmito In Natura) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704409-7",
+    "name": "Guariroba (palmito In Natura) (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704409-8",
+    "name": "Guariroba (palmito In Natura) (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704410-2",
+    "name": "Gueiroba (palmito In Natura) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6704410-7",
+    "name": "Gueiroba (palmito In Natura) (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6705801-7",
+    "name": "Catalonha (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6706101-99",
+    "name": "Jardineira (seleta)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6706102-99",
+    "name": "Seleta (jardineira)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6707301-99",
+    "name": "Broto De Alfafa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6709701-99",
+    "name": "Oregano",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6801017-99",
+    "name": "Pacova",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6801901-99",
+    "name": "Lima",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802202-99",
+    "name": "Mexerica",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802217-99",
+    "name": "Bergamota",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802218-99",
+    "name": "Mimosa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802223-99",
+    "name": "Tanja",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802227-99",
+    "name": "Maricota",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802407-99",
+    "name": "Laranjinha Japonesa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802501-99",
+    "name": "Cana De Acucar",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802602-99",
+    "name": "Ananas",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802801-99",
+    "name": "Caqui",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6802901-99",
+    "name": "Figo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6803108-99",
+    "name": "Papaia",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6803215-99",
+    "name": "Manguito",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6803803-99",
+    "name": "Ata",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804001-99",
+    "name": "Jenipapo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804101-99",
+    "name": "Jaca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804501-99",
+    "name": "Cereja",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804602-99",
+    "name": "Cajarana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804701-99",
+    "name": "Tapereba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804702-99",
+    "name": "Acaja (tabereba)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6804901-99",
+    "name": "Jaboticaba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6805001-99",
+    "name": "Graviola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6805301-99",
+    "name": "Jambo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6805401-99",
+    "name": "Atemoia",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6805701-99",
+    "name": "Araca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806001-99",
+    "name": "Sapoti",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806101-99",
+    "name": "Uxi",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806201-99",
+    "name": "Tamarindo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806301-99",
+    "name": "Cacau",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806401-99",
+    "name": "Pitomba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806501-99",
+    "name": "Bacuri",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806601-99",
+    "name": "Inga",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806701-99",
+    "name": "Pequi",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806801-99",
+    "name": "Pitanga",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6806901-99",
+    "name": "Ciriguela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807001-99",
+    "name": "Murici",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807101-99",
+    "name": "Umbu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807103-99",
+    "name": "Imbu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807202-99",
+    "name": "Biriba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807301-99",
+    "name": "Cupuacu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807401-99",
+    "name": "Nectarina",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807501-99",
+    "name": "Mari",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807601-99",
+    "name": "Roma",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6807701-99",
+    "name": "Acerola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6808001-99",
+    "name": "Abiu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6808201-99",
+    "name": "Jurubeba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6808901-99",
+    "name": "Acerola Organica",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6809901-99",
+    "name": "Amora",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900302-99",
+    "name": "Demerara",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900304-99",
+    "name": "Acucar Mascavo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900401-99",
+    "name": "Rapadura",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900402-99",
+    "name": "Alfenim De Cana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900403-99",
+    "name": "Batida (rapadura)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900501-99",
+    "name": "Sorvete De Qualquer Sabor Industrializado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900502-99",
+    "name": "Picole De Qualquer Sabor Industrializado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900601-99",
+    "name": "Chiclete",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900603-99",
+    "name": "Bala",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900605-99",
+    "name": "Drops",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900606-99",
+    "name": "Pastilha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900607-99",
+    "name": "Pirulito",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900609-99",
+    "name": "Goma De Mascar",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900610-99",
+    "name": "Jujuba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900701-99",
+    "name": "Tablete De Chocolate",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900702-99",
+    "name": "Barra De Chocolate",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900706-99",
+    "name": "Confete",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900801-99",
+    "name": "Chocolate Em Po De Qualquer Marca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900821-99",
+    "name": "Achocolatado Em Po",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900822-99",
+    "name": "Toddynho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900901-99",
+    "name": "Bombom De Qualquer Marca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6900904-99",
+    "name": "Trufa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901002-99",
+    "name": "Mousse De Qualquer Sabor (geléia)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901101-99",
+    "name": "Geleia De Mocoto",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901204-99",
+    "name": "Pessegada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901206-99",
+    "name": "Marmelada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901209-99",
+    "name": "Figada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901224-99",
+    "name": "Mariola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901501-99",
+    "name": "Melado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901602-99",
+    "name": "Mel",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901701-99",
+    "name": "Gelatina De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6901801-99",
+    "name": "Adocante Artificial",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6902004-99",
+    "name": "Merengue",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6902301-99",
+    "name": "Schimier De Cana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6902402-99",
+    "name": "Passa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6902601-99",
+    "name": "Pudim De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6902607-99",
+    "name": "Danette Pudim",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6902701-99",
+    "name": "Manjar",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903001-99",
+    "name": "Maria Mole",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903101-99",
+    "name": "Cocada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903102-99",
+    "name": "Quebra Queixo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903202-99",
+    "name": "Pe De Moleque",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903203-99",
+    "name": "Pacoca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903601-99",
+    "name": "Brigadeiro",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903701-99",
+    "name": "Bomba De Qualquer Tipo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903801-99",
+    "name": "Mil Folhas",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6903901-99",
+    "name": "Queijadinha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904104-99",
+    "name": "Cacarola Italiana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904105-99",
+    "name": "Quindim",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904202-99",
+    "name": "Pave De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904203-99",
+    "name": "Ambrosia",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904302-99",
+    "name": "Mumu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904401-99",
+    "name": "Canudinho Recheado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904501-99",
+    "name": "Sarolho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904502-99",
+    "name": "Beiju",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904701-99",
+    "name": "Beijo De Moca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904801-99",
+    "name": "Picole Ensacado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6904807-99",
+    "name": "Geladinho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6905001-99",
+    "name": "Churro",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6905101-99",
+    "name": "Pamonha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6905401-99",
+    "name": "Algodao-doce",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6905603-99",
+    "name": "Ioio Creme (chocolate Em Creme)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6905901-99",
+    "name": "Torrone",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6906404-99",
+    "name": "Polpa De Coco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6906501-99",
+    "name": "Diet Shake",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6906502-99",
+    "name": "Concentrado Alimentar Diet Shake",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6906602-99",
+    "name": "Acucar",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907001-99",
+    "name": "Acucar Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907201-99",
+    "name": "Barra De Cereais",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907202-99",
+    "name": "Barra De Cereais Salgada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907203-99",
+    "name": "Barra De Cereais Doce",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907301-99",
+    "name": "Sobremesa De Qualquer Tipo (exceto Infantil)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907401-99",
+    "name": "Rabanada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907501-99",
+    "name": "Milk Shake",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6907901-99",
+    "name": "Geleia Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6908401-99",
+    "name": "Pasteis De Santa Clara",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6908501-99",
+    "name": "Suspiro",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6909601-99",
+    "name": "Sorvete De Qualquer Sabor Industrializado Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6909701-99",
+    "name": "Sorvete De Qualquer Sabor Industrializado Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6909803-99",
+    "name": "Bala Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6909901-99",
+    "name": "Chiclete Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6909903-99",
+    "name": "Bala Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910002-99",
+    "name": "Barra De Chocolate Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910102-99",
+    "name": "Barra De Chocolate Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910221-99",
+    "name": "Achocolatado Em Po Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910321-99",
+    "name": "Achocolatado Em Po Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910322-99",
+    "name": "Toddynho Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910401-99",
+    "name": "Bombom De Qualquer Marca Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910501-99",
+    "name": "Bombom De Qualquer Marca Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910604-99",
+    "name": "Geleia Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910801-99",
+    "name": "Pudim De Qualquer Sabor Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910808-99",
+    "name": "Pudim Danette Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6910901-99",
+    "name": "Pudim De Qualquer Sabor Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6912501-99",
+    "name": "Barra De Cereais Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6912502-99",
+    "name": "Barra De Cereais Doce Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6912801-99",
+    "name": "Milk Shake Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6913001-99",
+    "name": "Cocada Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6913103-99",
+    "name": "Pacoca Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6913901-99",
+    "name": "Gelatina De Qualquer Sabor Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6914001-99",
+    "name": "Adocante Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6914002-99",
+    "name": "Adocante Em Po Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-6914003-99",
+    "name": "Adocante Liquido Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7001501-99",
+    "name": "Mostarda Molho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7002304-99",
+    "name": "Hortela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7002401-99",
+    "name": "Alcaparra Em Conserva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7002601-99",
+    "name": "Coentro",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7003604-99",
+    "name": "Shoyo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7004301-99",
+    "name": "Maionese (molho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7004802-99",
+    "name": "Ketchup",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7004803-99",
+    "name": "Catchup",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7006101-99",
+    "name": "Pimenta Em Po",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7007101-99",
+    "name": "Tucupi Em Caldo Sem Pimenta",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7010401-99",
+    "name": "Maionese (molho) Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7079202-99",
+    "name": "Vinagrete",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-2",
+    "name": "Contrafile (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-3",
+    "name": "Contrafile (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-4",
+    "name": "Contrafile (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-5",
+    "name": "Contrafile (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-6",
+    "name": "Contrafile (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-7",
+    "name": "Contrafile (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100201-8",
+    "name": "Contrafile (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100303-3",
+    "name": "Maminha (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100303-4",
+    "name": "Maminha (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100303-5",
+    "name": "Maminha (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100303-8",
+    "name": "Maminha (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100304-2",
+    "name": "Picanha (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100304-3",
+    "name": "Picanha (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100304-4",
+    "name": "Picanha (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100304-5",
+    "name": "Picanha (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100304-13",
+    "name": "Picanha (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100604-2",
+    "name": "Posta Branca (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100604-5",
+    "name": "Posta Branca (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100604-8",
+    "name": "Posta Branca (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100606-2",
+    "name": "Tatu (lagarto Redondo) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100606-4",
+    "name": "Tatu (lagarto Redondo) (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100606-7",
+    "name": "Tatu (lagarto Redondo) (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100606-99",
+    "name": "Tatu (lagarto Redondo)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100607-2",
+    "name": "Paulista (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100607-4",
+    "name": "Paulista (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100702-2",
+    "name": "Posta Vermelha (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100801-2",
+    "name": "Acem (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100801-4",
+    "name": "Acem (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100801-5",
+    "name": "Acem (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100801-6",
+    "name": "Acem (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100801-7",
+    "name": "Acem (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100801-13",
+    "name": "Acem (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100803-2",
+    "name": "Agulha (acem) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100803-4",
+    "name": "Agulha (acem) (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100803-5",
+    "name": "Agulha (acem) (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100905-2",
+    "name": "Paleta (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100905-5",
+    "name": "Paleta (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100905-8",
+    "name": "Paleta (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100905-13",
+    "name": "Paleta (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100908-2",
+    "name": "Pa Com Osso (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100908-3",
+    "name": "Pa Com Osso (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7100908-4",
+    "name": "Pa Com Osso (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101202-2",
+    "name": "Fraldinha (capa De File) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101202-3",
+    "name": "Fraldinha (capa De File) (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101202-4",
+    "name": "Fraldinha (capa De File) (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101202-5",
+    "name": "Fraldinha (capa De File) (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101203-1",
+    "name": "Aba De Filé (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101203-3",
+    "name": "Aba De Filé (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101203-5",
+    "name": "Aba De Filé (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101706-3",
+    "name": "File De Segunda (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101706-4",
+    "name": "File De Segunda (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101706-5",
+    "name": "File De Segunda (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7101706-6",
+    "name": "File De Segunda (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102402-2",
+    "name": "Dobradinha Fresca (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102402-4",
+    "name": "Dobradinha Fresca (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102402-8",
+    "name": "Dobradinha Fresca (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102402-13",
+    "name": "Dobradinha Fresca (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102402-99",
+    "name": "Dobradinha Fresca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102404-2",
+    "name": "Fato Caprino (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102601-3",
+    "name": "Cupim (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102601-4",
+    "name": "Cupim (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7102601-5",
+    "name": "Cupim (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7103301-2",
+    "name": "Carre (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7103301-3",
+    "name": "Carre (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7103301-4",
+    "name": "Carre (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7103301-5",
+    "name": "Carre (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7103801-99",
+    "name": "Toucinho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7104302-99",
+    "name": "Guizado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7105103-99",
+    "name": "Sarrabulho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7105801-2",
+    "name": "Mocoto De Caprino (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7106301-2",
+    "name": "Pernil (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7106301-3",
+    "name": "Pernil (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7106301-4",
+    "name": "Pernil (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7106301-5",
+    "name": "Pernil (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107102-99",
+    "name": "Brachola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107804-2",
+    "name": "Chuleta (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107804-3",
+    "name": "Chuleta (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107804-4",
+    "name": "Chuleta (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107804-5",
+    "name": "Chuleta (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-1",
+    "name": "File Nao Especificado (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-2",
+    "name": "File Nao Especificado (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-3",
+    "name": "File Nao Especificado (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-4",
+    "name": "File Nao Especificado (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-5",
+    "name": "File Nao Especificado (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-6",
+    "name": "File Nao Especificado (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-7",
+    "name": "File Nao Especificado (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-8",
+    "name": "File Nao Especificado (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-11",
+    "name": "File Nao Especificado (com manteiga/oleo)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-13",
+    "name": "File Nao Especificado (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7107805-99",
+    "name": "File Nao Especificado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7108107-2",
+    "name": "Miudo De Bode (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7110801-2",
+    "name": "Musculo Nao Especificado (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7110801-13",
+    "name": "Musculo Nao Especificado (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7110902-2",
+    "name": "Ossada Nao Especificada (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7110902-7",
+    "name": "Ossada Nao Especificada (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7110902-15",
+    "name": "Ossada Nao Especificada (sopa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7110902-99",
+    "name": "Ossada Nao Especificada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7111401-4",
+    "name": "Contrafile Organico (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7111806-4",
+    "name": "Tatu (lagarto Redondo) Organico (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7261101-2",
+    "name": "Siri (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7261101-6",
+    "name": "Siri (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7261101-7",
+    "name": "Siri (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7261120-2",
+    "name": "Bau (siri) (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7261121-1",
+    "name": "Goia (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7262105-2",
+    "name": "Guaiamu (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7263101-2",
+    "name": "Marisco (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7263101-5",
+    "name": "Marisco (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7263101-8",
+    "name": "Marisco (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7263101-99",
+    "name": "Marisco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7264101-2",
+    "name": "Ostra (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7265101-6",
+    "name": "Lula (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7266101-2",
+    "name": "Sururu (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7266101-13",
+    "name": "Sururu (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-2",
+    "name": "Bacalhau (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-4",
+    "name": "Bacalhau (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-5",
+    "name": "Bacalhau (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-6",
+    "name": "Bacalhau (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-7",
+    "name": "Bacalhau (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-8",
+    "name": "Bacalhau (molho vermelho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-13",
+    "name": "Bacalhau (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7270401-99",
+    "name": "Bacalhau",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7444101-2",
+    "name": "Tracaja (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7700101-99",
+    "name": "Azeitona",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7700202-99",
+    "name": "Petit Pois",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7700501-99",
+    "name": "Palmito Em Conserva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7700701-99",
+    "name": "Aspargo Em Conserva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7700902-99",
+    "name": "Chucrute",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7701406-99",
+    "name": "Yakissoba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7701901-99",
+    "name": "Feijoada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702101-99",
+    "name": "Cozido",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702602-99",
+    "name": "Almondega",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702604-99",
+    "name": "Almondega Ao Molho Em Conserva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702705-99",
+    "name": "Presuntada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702707-1",
+    "name": "Fiambre (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702707-2",
+    "name": "Fiambre (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702707-4",
+    "name": "Fiambre (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7702707-5",
+    "name": "Fiambre (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7704001-99",
+    "name": "Picles",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7705201-99",
+    "name": "Nabo Em Conserva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7705401-99",
+    "name": "Strogonoff",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7706001-99",
+    "name": "Salmao Em Conserva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7801407-99",
+    "name": "Canja",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7802701-2",
+    "name": "Chester (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7802701-4",
+    "name": "Chester (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7802701-99",
+    "name": "Chester",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7802702-4",
+    "name": "Tender (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7802801-2",
+    "name": "Nambu (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803001-5",
+    "name": "Codorna (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803703-2",
+    "name": "Capote (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803703-4",
+    "name": "Capote (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803703-5",
+    "name": "Capote (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803707-2",
+    "name": "Mutum (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803907-2",
+    "name": "Pato Em Pedaços (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803907-13",
+    "name": "Pato Em Pedaços (ensopado)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7803908-5",
+    "name": "Peito De Pato (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901301-99",
+    "name": "Yakult De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901303-99",
+    "name": "Bebida Lactea",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901501-99",
+    "name": "Manteiga Com Ou Sem Sal",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901505-99",
+    "name": "Manteiga De Garrafa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901602-99",
+    "name": "Margarina Com Ou Sem Sal",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901803-99",
+    "name": "Mussarela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7901807-99",
+    "name": "Mussarela De Bufala",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7902004-99",
+    "name": "Quechimia",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7902303-99",
+    "name": "Ades Original",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7903110-99",
+    "name": "Bebida Achocolatada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7903201-99",
+    "name": "Nata",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7904201-99",
+    "name": "Margarina Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7905103-99",
+    "name": "Mussarela Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7905203-99",
+    "name": "Ades Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7906710-99",
+    "name": "Bebida Achocolatada Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7906810-99",
+    "name": "Bebida Achocolatada Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-7907101-99",
+    "name": "Manteiga Com Ou Sem Sal Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8000203-99",
+    "name": "Chineque",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8000218-99",
+    "name": "Chineque Com Farofa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8000234-99",
+    "name": "Panetone",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8000237-99",
+    "name": "Bisnaguinha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8000240-99",
+    "name": "Croissant",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002001-99",
+    "name": "Rosca Doce",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002002-99",
+    "name": "Rosquinha Doce",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002101-99",
+    "name": "Rosca Salgada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002106-99",
+    "name": "Rosquinha Salgada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002227-99",
+    "name": "Chips (salgadinhos)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002230-99",
+    "name": "Baconzitos",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002302-99",
+    "name": "Cavaco Chines",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002305-99",
+    "name": "Sequilho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002306-99",
+    "name": "Tareco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002309-99",
+    "name": "Solda",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002315-99",
+    "name": "Brevidade",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002405-99",
+    "name": "Quebra Quebra",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002502-99",
+    "name": "Rocambole",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002503-99",
+    "name": "Cuca De Qualquer Tipo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002604-99",
+    "name": "Amidomil (bolinho)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002609-99",
+    "name": "Grustoli (bolinho Doce)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8002704-99",
+    "name": "Bolo De Goma",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8003501-99",
+    "name": "Tortas Doces De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8003601-99",
+    "name": "Tortas Salgadas De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8003701-99",
+    "name": "Sonho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8003801-99",
+    "name": "Bolo De Chocolate",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8003902-99",
+    "name": "Brioche",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8004101-99",
+    "name": "Bolo De Coco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8004701-99",
+    "name": "Broa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8004813-99",
+    "name": "Rosca Recheada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8004814-99",
+    "name": "Rosquinha Recheada De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8006101-99",
+    "name": "Crepe",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8007001-99",
+    "name": "Tortas Doces De Qualquer Sabor Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8007101-99",
+    "name": "Tortas Doces De Qualquer Sabor Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8007501-99",
+    "name": "Bolo De Chocolate Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8007601-99",
+    "name": "Bolo De Chocolate Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8008001-99",
+    "name": "Bolo De Coco Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8008408-99",
+    "name": "Rosquinha Recheada De Qualquer Sabor Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8010034-99",
+    "name": "Panetone Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8010127-99",
+    "name": "Chips (salgadinhos) Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8100103-2",
+    "name": "Jaba (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8100103-5",
+    "name": "Jaba (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8100103-7",
+    "name": "Jaba (refogado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8100103-99",
+    "name": "Jaba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8101005-99",
+    "name": "Bacon",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102401-99",
+    "name": "Chourico",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102402-99",
+    "name": "Morcela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102403-1",
+    "name": "Morcilha (cru(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102403-2",
+    "name": "Morcilha (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102501-2",
+    "name": "Paio (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102601-99",
+    "name": "Mortadela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102701-99",
+    "name": "Salame",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8102702-99",
+    "name": "Salaminho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8103101-2",
+    "name": "Hamburguer Nao Especificado (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8103101-3",
+    "name": "Hamburguer Nao Especificado (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8103101-4",
+    "name": "Hamburguer Nao Especificado (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8103101-5",
+    "name": "Hamburguer Nao Especificado (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8103101-99",
+    "name": "Hamburguer Nao Especificado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8103601-99",
+    "name": "Apresuntado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8104904-2",
+    "name": "Mini Chicken Empanado (cozido(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8104904-3",
+    "name": "Mini Chicken Empanado (grelhado(a)/brasa/churrasco)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8104904-4",
+    "name": "Mini Chicken Empanado (assado(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8104904-5",
+    "name": "Mini Chicken Empanado (frito(a))",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8104904-6",
+    "name": "Mini Chicken Empanado (empanado(a)/a milanesa)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8105001-99",
+    "name": "Mortadela Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8105401-99",
+    "name": "Salame Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8105701-99",
+    "name": "Hamburguer Nao Especificado Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200101-99",
+    "name": "Refrigerante De Cola Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200102-99",
+    "name": "Coca Cola Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200208-99",
+    "name": "Sukita Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200301-99",
+    "name": "Refrigerante De Guarana Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200302-99",
+    "name": "Guarana Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200407-99",
+    "name": "Sprit Refrigerante Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200701-99",
+    "name": "Refrigerante De Cola Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200702-99",
+    "name": "Coca Cola Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200801-99",
+    "name": "Refrigerante De Cola Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8200902-99",
+    "name": "Minuano Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8201104-99",
+    "name": "Mate Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8201202-99",
+    "name": "Bidu Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8201601-99",
+    "name": "Refrigerante De Guarana Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8201602-99",
+    "name": "Guarana Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8201802-99",
+    "name": "Tubaina Tradicional",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8201902-99",
+    "name": "Tubaina Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202001-99",
+    "name": "Caldo De Cana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202002-99",
+    "name": "Garapa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202402-99",
+    "name": "Q-suco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202403-99",
+    "name": "Q-refresko",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202803-99",
+    "name": "Erva Mate",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202804-99",
+    "name": "Chimarrao",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8202805-99",
+    "name": "Terere",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8203401-99",
+    "name": "Levedo De Cerveja",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8203501-99",
+    "name": "Refrigerante Nao Especificado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8203603-99",
+    "name": "Cevada Em Po",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8204503-99",
+    "name": "Chocomilk",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8205803-99",
+    "name": "Gatorade",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8205901-99",
+    "name": "Bebida Energetica",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8207401-99",
+    "name": "Refrigerante De Guarana Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8207402-99",
+    "name": "Guarana Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8208104-99",
+    "name": "Mate Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8211002-99",
+    "name": "Q-suco Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8211003-99",
+    "name": "Q-refresko Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8211102-99",
+    "name": "Q-suco Diet",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8212906-99",
+    "name": "Refrigerante De Quinino Dietetico",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8213004-99",
+    "name": "Chimarrao Organico",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8213601-99",
+    "name": "Suco De Clorofila",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8300101-99",
+    "name": "Cerveja (com Ou Sem Alcool)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8300201-99",
+    "name": "Chopp",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8300501-99",
+    "name": "Batida De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8300701-99",
+    "name": "Rum",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8300801-99",
+    "name": "Vodka",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8301001-99",
+    "name": "Uisque",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8301002-99",
+    "name": "Whisky",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8301501-99",
+    "name": "Martini",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8301601-99",
+    "name": "Conhaque",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8301701-99",
+    "name": "Drink Dreher",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8301901-99",
+    "name": "Licor De Qualquer Sabor",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8302415-99",
+    "name": "Vinho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8302416-99",
+    "name": "Catuaba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8303101-99",
+    "name": "Caipirinha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8303501-99",
+    "name": "Bebida Alcoolica",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8303615-99",
+    "name": "Vinho Organico",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8304301-99",
+    "name": "Cerveja (com Ou Sem Alcool) Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8400101-99",
+    "name": "Azeite De Oliva",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8403201-99",
+    "name": "Oleo Nao Especificado",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8403501-99",
+    "name": "Oleo De Dende",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500201-99",
+    "name": "Salgadinho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500203-99",
+    "name": "Croquete",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500205-99",
+    "name": "Coxinha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500210-99",
+    "name": "Torresmo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500211-99",
+    "name": "Quibe",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500212-99",
+    "name": "Abara (bahia)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500215-99",
+    "name": "Angu Frito",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500222-99",
+    "name": "Esfirra",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500225-99",
+    "name": "Esfirra De Ricota",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500227-99",
+    "name": "Enroladinho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500232-99",
+    "name": "Bolinho De Bacalhau",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500302-99",
+    "name": "Cachorro Quente",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500303-99",
+    "name": "Hamburguer (sanduiche)",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500304-99",
+    "name": "Cheesburguer",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500305-99",
+    "name": "Eggsburguer",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500307-99",
+    "name": "Bauru",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500308-99",
+    "name": "Americano",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500313-99",
+    "name": "Misto Quente Ou Frio",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500316-99",
+    "name": "Sanduiche De Salame",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500319-99",
+    "name": "Sanduiche De Mortadela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500321-99",
+    "name": "Cheese Egg",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500322-99",
+    "name": "Cheese Tudo",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500323-99",
+    "name": "Sanduiche Natural",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500401-99",
+    "name": "Suco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500403-99",
+    "name": "Suco De Acerola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500405-99",
+    "name": "Suco De Cupuacu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500501-99",
+    "name": "Vitamina",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500508-99",
+    "name": "Vitamina Mista",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500601-99",
+    "name": "Refresco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500603-99",
+    "name": "Refresco De Groselha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500903-99",
+    "name": "Pizza",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500904-99",
+    "name": "Lazanha",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500905-99",
+    "name": "Nhoque",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500906-99",
+    "name": "Caneloni",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500907-99",
+    "name": "Capeleti",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500909-99",
+    "name": "Ravioli",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500910-99",
+    "name": "Calzone",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500913-99",
+    "name": "Panqueca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500914-99",
+    "name": "Pizza Calabreza",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500915-99",
+    "name": "Pizza Muzzarela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8500917-99",
+    "name": "Pizza Portuguesa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8501004-99",
+    "name": "Galeto",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8501104-99",
+    "name": "Costela",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8501202-99",
+    "name": "Pipoca Doce Ou Salgada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8501902-99",
+    "name": "Mungunza",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8501903-99",
+    "name": "Canjica",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8501904-99",
+    "name": "Curau",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8502201-99",
+    "name": "Farofa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8502401-99",
+    "name": "Tacaca",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8502501-99",
+    "name": "Bolinho De Coco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8502701-99",
+    "name": "Risoto",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8502801-99",
+    "name": "Vatapa",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8502901-99",
+    "name": "Farofa Pronta",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8503204-99",
+    "name": "Caldo De Mocoto",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8503501-99",
+    "name": "Baiao De Dois",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8503801-99",
+    "name": "Churrasco",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8504201-99",
+    "name": "Sushi",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8504801-99",
+    "name": "Salpicao",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8505501-99",
+    "name": "Arrumadinho",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8506401-99",
+    "name": "Moqueca Baiana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8506501-99",
+    "name": "Omelete",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8506601-99",
+    "name": "Pirao",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8506701-99",
+    "name": "Quibebe",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8506801-99",
+    "name": "Quiche",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8506901-99",
+    "name": "Sufle",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507001-99",
+    "name": "Tutu",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507101-99",
+    "name": "Moqueca Capixaba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507201-99",
+    "name": "Manicoba",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507301-99",
+    "name": "Caldo Verde",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507501-99",
+    "name": "Angu A Baiana",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507601-99",
+    "name": "Chocolate",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507701-99",
+    "name": "Gemada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507801-99",
+    "name": "Acai Com Granola",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507901-99",
+    "name": "Suco Organico",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8507903-99",
+    "name": "Suco De Acerola Organico",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8508003-99",
+    "name": "Pizza Pronta Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8508004-99",
+    "name": "Lazanha Pronta Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8508017-99",
+    "name": "Pizza Portuguesa Light",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8508101-99",
+    "name": "Farofa Pronta Light Em Pacote",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8508301-99",
+    "name": "Vaca Atolada",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8570101-99",
+    "name": "Prato De Comida Brasileiro",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8570102-99",
+    "name": "Prato De Comida Ne",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8570103-99",
+    "name": "Prato De Comida N",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8570104-99",
+    "name": "Prato De Comida Se",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8570105-99",
+    "name": "Prato De Comida Sul",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8570106-99",
+    "name": "Prato De Comida Co",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8579003-99",
+    "name": "Maria Izabel",
+    "reason": "Classificado via fallback"
+  },
+  {
+    "id": "ibge-8800109-99",
+    "name": "Palma",
+    "reason": "Classificado via fallback"
+  }
+]
